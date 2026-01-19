@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;     
+  position: relative; 
+}
+
+#balloon{
+  position: absolute;
+  width: 110px;
+  height: 110px;
+
+
+  border-radius: 50% 50% 50% 50%;
+  background: #ff5a5f;
+
+
+  left: 120px;
+  top: 120px;
+
+ 
+  transition: left 160ms ease, top 160ms ease;
+}
