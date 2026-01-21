@@ -7,8 +7,8 @@ let isNear = false;
 let revertTimer = null;
 
 // audio variables
-let sfx = new Audio("asset/monkey.wav");
-sfx.preload = "auto";
+let sound = new Audio("asset/monkey.wav");
+sound.preload = "auto";
 
 // sound button logic
 let soundEnabled = false;
@@ -70,8 +70,8 @@ document.addEventListener("mousemove", function (e) {
       isNear = true;
 
       if (soundEnabled) {
-        sfx.currentTime = 0;
-        sfx.play();
+        sound.currentTime = 0;
+        sound.play();
       }
     }
 
