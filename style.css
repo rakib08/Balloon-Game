@@ -48,13 +48,16 @@
   width: 110px;
   height: 110px;
 
-
   border-radius: 50% 50% 50% 50%;
-  background: #ff5a5f;
-
+  background: transparent;
+  background-image: url(asset/monkey_normal.jpg);
+  background-size: cover;
+  background-position: center;
 
   left: 120px;
   top: 120px;
+}
 
-
+#balloon.near{
+  background-image: url(asset/monkey_grimace.jpg);
 }
